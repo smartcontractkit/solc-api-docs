@@ -128,6 +128,10 @@
 <h1 id="api">API</h1>
 
 <h2 id="compile">Compile</h2>
+<pre class="highlight shell"><code>curl -X POST
+  -d <span class="s1">'{"Owned.sol": "pragma solidity ^0.4.6;...", "Oracle.sol": "pragma solidity ^0.4.9;..."}'</span>
+  https://solc.smartcontract.com/api/compile
+</code></pre>
 
 <p><code class="prettyprint">POST</code> request to <code class="prettyprint">/api/compile</code> with parameters:</p>
 
