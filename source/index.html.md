@@ -22,6 +22,12 @@ There is a free version of the [SolC API available here](https://solc.smartcontr
 
 ## Compile
 
+```shell
+curl -X POST
+  -d '{"Owned.sol": "pragma solidity ^0.4.6;...", "Oracle.sol": "pragma solidity ^0.4.9;..."}'
+  https://solc.smartcontract.com/api/compile
+```
+
 `POST` request to `/api/compile` with parameters:
 
 Parameter | Type | Description
