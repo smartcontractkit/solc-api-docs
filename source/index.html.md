@@ -36,6 +36,8 @@ Parameter | Type | Description
 
 You can send multiple files at once if your contracts import other contracts or libraries. To compile multiple files, simply include multiple keys, each being the file name.
 
+Return values:
+
 Parameter | Type | Description
 ---- | ----- | --------
 contracts | object | A JSON object of all the information of the compiled contracts
